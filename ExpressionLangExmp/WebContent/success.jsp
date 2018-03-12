@@ -7,6 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
+Hello Mr.${param["username"]}. Hope you fine.<br/>
+Contact: ${param["contact"]}<br/>
+Email: ${initParam["email"]}<br/>
 List contains:<br/>
 	${names[0]}<br/>
 	${names[1]}<br/>
