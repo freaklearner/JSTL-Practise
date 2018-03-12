@@ -7,6 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
+<form method="get" action="./hello.sh">
+	Name: <input type="text" name="username"/><br/>
+	Cont: <input type="text" name="contact"/></br>
+	<input type="submit" value="Submit"/>
+</form>
+
 <a href="./hello.sh">Click</a>
 </body>
 </html>
